@@ -1,5 +1,6 @@
 let p = document.querySelector(".p-content")
 
 
-p.textContent= p.textContent.toUpperCase()
+p.textContent= p.textContent
 console.log(p)
+
