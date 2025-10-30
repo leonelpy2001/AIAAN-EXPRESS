@@ -3,12 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../Asset/fonts/favicons/favicon_Branco.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../imgs/logo/aiaan-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global-config.css">
+    <link rel="stylesheet" href="../css/section-main.css">
+    <link rel="stylesheet" href="../css/side-bar.css">
+    <link rel="stylesheet" href="/css/article-data.css">
+    <link rel="stylesheet" href="../css/side-bar-actividade.css">
     <link rel="stylesheet" href="../Asset/fonts/icones/basic/boxicons.css">
-    <title>AIAAN Express</title>
+    <title>AIAAN EXPRESS</title>
 </head>
 
 <body>
@@ -17,44 +20,290 @@
         <section class="side-bar-menu">
             <ul class="ul-links">
                 <a href="">
-                    <li id="Painel"><i class='bx-dashboard bx-rotate-180' ></i> Painel</li>
+                    <li id="Painel" class="painel"><i class='bxs-dashboard bx-rotate-180'></i><span class="visivel"> Painel</span></li>
                 </a>
                 <a href="#">
-                    <li><i class='bx-analyze'></i>Domesticos</li>
+                    <li class="domesticos"><i class='bx-analyze'></i><span class="visivel">Domesticos</span></li>
                 </a>
                 <a href="#">
-                    <li><i class='bx-planet'></i>Internacionais</li>
+                    <li class="internacionais"><i class='bx-planet'></i><span class="visivel">Internacionais</span></li>
                 </a>
                 <a href="#">
-                    <li><i class='bx-store'></i>Serviços</li>
-                </a>
-                <a href="#">
-                    <li><i class=' bx-book-alt'></i>Minha agenda <div class="div-noty"></div>
+                    <li class="blog"><i class='bx-message-circle-reply'></i><span class="visivel">Blog</span>
                     </li>
                 </a>
+                <a href="#">
+                    <li class="minha-agenda"><i class=' bx-book-alt'></i><span class="visivel">Minha agenda </span>
+                        <div class="div-noty"></div>
+                    </li>
+                </a>
+                <hr>
+                <p class="Esplorar">Esplorar</p>
+
+                <a href="#">
+                    <li class="user"><i class=' bx-user'></i><span class="visivel">Leonildo Antonio</span>
+                    </li>
+                </a>
+                <a href="">
+                    <li id="promo"><img src="../imgs/logo/aiaan-logo.png" alt=""><span class="visivel">AIAAN STORY</span><span
+                            class="oculto" id="promo-oculto">AIAAN STORY</span></li>
+                </a>
+                <p class="promo-text"><small>Encontre produtos ou servisos neste aeroporto!</small></p>
+
+                <ul class="ul-user-btn-sair">
+
+
+                    <button class="btn-sair">
+                        <i class=' bx-arrow-from-right-stroke'></i><span class="visivel"> Sair</span><span class="oculto" id="sair-oculto">Sair</span>
+                    </button>
+                </ul>
             </ul>
 
-            <ul class="ul-user-btn-sair">
-                <div class="div-user">
-                    <div class="div-user-L">
-                        L
-                    </div>
-                    <p class="user-nome">Leonildo Antonio</p>
-                </div>
 
-                <button class="btn-sair">
-                    <i class=' bx-arrow-from-right-stroke'></i> Sair
-                </button>
-            </ul>
         </section>
 
 
+        <section class="section-main">
+            <article class="article-nav-main">
+                <img src="../imgs/logo/aiaan_logo_grande_preto-removebg-preview(2).png" alt="" width="38px">
+                <ul class="ul-pesquisa">
+                    <li><i class='bx-search'></i></li>
+                    <li><i class='bx-gallery-vertical-end'></i> </li>
+                    <li><i class=' bx-megaphone'></i> </li>
+                </ul>
+            </article>
 
-        <section class="section-main">section-main</section>
-        <section class="side-bar-setting" style="background-color: rgb(83, 127, 194);">side-bar-setting</section>
+            <article class="article-data-main">
+
+                <div class="div-aeroporto-btn-data">
+                    <div class="aeroporto-div">
+                        <div class="img-aeroporto-nome">
+                            <img src="../imgs/logo/aiaan torre.png" alt="aiaan-log">
+                            <p>AIAAN-NBJ</p>
+                        </div>
+                        <div class="aero-hora">
+                            <span>10 : 45</span>
+                        </div>
+                    </div>
+                    <div class="div-data">
+                        <span>20/10/2025</span>
+                    </div>
+                </div>
+
+                <ul class="ul-carrosel-inf">
+                    <li class="card-numero-de-voos">
+
+                        <div class="div-carrosel-rolo-content-link">
+                            <p>Total de voos para hoje</p>
+
+                            <a href="">
+                                <i class=' bx-arrow-up-right-stroke-circle'></i>
+                            </a>
+
+
+                        </div>
+
+
+                        <div class="div-valor-content">
+                            <span class="valor">50</span><span>Voos</span>
+                            
+                        </div>
+                    </li>
+
+
+
+
+                    <li class="card-Total-de-serviços-f">
+                        <div class="div-carrosel-rolo-content-link">
+                            <p>Total de serviços finalizados de hoje</p>
+
+                            <a href="">
+                                <i class=' bx-arrow-up-right-stroke-circle'></i>
+                            </a>
+
+
+                        </div>
+
+                        <div class="div-contador-progresso">
+                            <p><span class="exucutado">25</span> <small class="total">/50</small> </p>
+                            <div class="div-progress">
+                                <div class="progress">
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <li class="card-companias">
+                        <div class="div-carrosel-rolo-content-link">
+                            <p>Total de companhias</p>
+
+                            <a href="">
+                                <i class=' bx-arrow-up-right-stroke-circle'></i>
+                            </a>
+
+
+                        </div>
+
+                        <div class="div-compania-Num-logos">
+                            <p class="companias">
+                                06
+                            </p>
+
+                            <div class="descricao">companias aerias</div>
+                        </div>
+
+
+                    </li>
+                </ul>
+
+                <hr>
+
+                <div class="div-content-btns">
+                    <h2>
+                        Acompanhe os últimos servicos !
+                    </h2>
+
+                    <div class="div-options">
+                        <button class="chegadas">
+                            <span class="chegadas">
+                                10
+                            </span>
+                            <p>chegadas</p>
+                        </button>
+                        <button class="partidadas">
+                            <span class="partidadas">
+                                12
+                            </span>
+                            <p>partidadas</p>
+                        </button>
+                    </div>
+                </div>
+
+                <ul class="lista-de-voos">
+                    <li>
+                        <div class="li-div-img-content">
+                            <img src="../imgs/aiaan logo grande preto.jpg" alt="company-logo">
+                            <div class="div-company-nome-data">
+                                <p>Taag</p>
+                                <span class="hora">14:20</span>
+                            </div>
+                        </div>
+
+
+                        <p class="provincia"> Cabin...</p>
+
+                        <div class="div-detalhes">
+
+                            <img src="../imgs/arrow-down-left.png" alt="chegada alt">
+                            <p class="estado">Em terra</p>
+
+                        </div>
+
+
+                    </li>
+
+                    <li>
+                        <div class="li-div-img-content">
+                            <img src="../imgs/aiaan logo grande preto.jpg" alt="company-logo">
+                            <div class="div-company-nome-data">
+                                <p>Taag</p>
+                                <span class="hora">14:20</span>
+                            </div>
+                        </div>
+
+
+                        <p class="provincia"> Catum...</p>
+
+                        <div class="div-detalhes">
+
+                            <img src="../imgs/arrow-down-left.png" alt="chegada alt">
+                            <p class="estado">Em terra</p>
+
+                        </div>
+
+
+                    </li>
+
+                    <li>
+                        <div class="li-div-img-content">
+                            <img src="../imgs/aiaan logo grande preto.jpg" alt="company-logo">
+                            <div class="div-company-nome-data">
+                                <p>Taag</p>
+                                <span class="hora">14:20</span>
+                            </div>
+                        </div>
+
+
+                        <p class="provincia"> Zoyo</p>
+
+                        <div class="div-detalhes">
+
+                            <img src="../imgs/arrow-down-left.png" alt="chegada alt">
+                            <p class="estado">Em terra</p>
+
+                        </div>
+
+
+                    </li>
+                </ul>
+            </article>
+
+        </section>
+
+
+        <section class="side-bar-actividade-profile" style=" border-left: 1px solid rgba(0, 0, 0, 0.224);">
+            <h2>Voos populares</h2>
+
+            <ul class="ul-actividade">
+                <p>Domesticos</p>
+                <li>
+                    <span class="count">1</span>
+                    <div class="div-card">
+                        <span>Cabinda</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="count">2</span>
+                    <div class="div-card">
+                        <span>Soyo</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="count">3</span>
+                    <div class="div-card">
+                        <span>Huambo</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+
+                <p>Internacionas</p>
+                <li>
+                    <span class="count">1</span>
+                    <div class="div-card">
+                        <span>Porto</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+
+                <li>
+                    <span class="count">2</span>
+                    <div class="div-card">
+                        <span>Sao Paulo</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+                <li>
+                    <span class="count">3</span>
+                    <div class="div-card">
+                        <span>weidhok</span> <i class=' bx-slider-alt'></i><span>E.Bendo</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
     </main>
     <footer></footer>
     <script src="../js/main.js"></script>
+    <script src="../js/side-bar.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,249 @@
+/* side bar*/
+main .side-bar-menu {
+
+
+    border-right: 1px solid rgba(0, 0, 0, 0.224);
+
+
+}
+
+.hide {
+    display: none;
+}
+
+main .side-bar-menu ul.ul-links {
+    padding: 15px;
+    position: sticky;
+    list-style: none;
+
+    top: 0;
+}
+
+#Painel {
+    font-weight: bolder;
+    background-color: rgb(232, 232, 232);
+}
+
+#promo {
+    margin-top: 15px;
+    padding: 18px 15px;
+    border-radius: 35px;
+    color: rgb(255, 255, 255);
+    font-family: "MuseoModerno";
+    background-color: rgb(20, 20, 20);
+}
+
+#promo span {
+    font-family: "MuseoModerno";
+}
+
+#promo img {
+    width: 30px;
+    display: block;
+}
+
+#promo span {
+    font-family: "MuseoModerno";
+}
+
+#promo:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+main .side-bar-menu ul.ul-links li {
+    position: relative;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+    padding: 12px;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 18px;
+}
+
+
+main .side-bar-menu ul.ul-links li .oculto {
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 85px;
+
+    color: white;
+    background-color: rgb(52, 52, 52);
+    width: 180px;
+    text-align: center;
+    padding: 15px;
+
+}
+
+main .side-bar-menu ul.ul-links a {
+    text-decoration: none;
+    color: black;
+}
+
+main .side-bar-menu ul.ul-links li:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+main .side-bar-menu ul.ul-links li i {
+
+    font-size: 32px;
+}
+
+main .side-bar-menu ul.ul-links .div-noty {
+    position: absolute;
+    right: 15px;
+    width: 9px;
+    height: 9px;
+
+    background-color: rgba(0, 128, 0, 0.627);
+    border-radius: 50%;
+}
+
+main .side-bar-menu ul.ul-links hr {
+    border-bottom: none;
+    opacity: 0.3;
+    margin: 20px 0;
+}
+
+main .side-bar-menu ul.ul-links .Esplorar {
+    font-family: "LeagueSpartan";
+    font-weight: bolder;
+    margin: 5px 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+main .side-bar-menu ul.ul-links .promo-text {
+    padding: 3px 10px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+main .side-bar-menu .ul-user-btn-sair {
+    width: 100%;
+    margin-top: 30px;
+
+    bottom: 0;
+}
+
+main .side-bar-menu .ul-user-btn-sair .div-user {
+    border-radius: 40px;
+    padding: 15px;
+    cursor: pointer;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 15px;
+    bottom: 25px;
+}
+
+
+main .side-bar-menu .ul-user-btn-sair .btn-sair {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-size: 17px;
+    background-color: rgb(232, 232, 232);
+    width: 100%;
+    border: none;
+    padding: 18px;
+
+    border-radius: 35px;
+}
+
+main .side-bar-menu .ul-user-btn-sair .btn-sair i {
+    font-size: 33px;
+
+
+}
+
+main .side-bar-menu .ul-user-btn-sair .btn-sair .oculto {
+    display: none;
+
+}
+
+@media (max-width: 820px) {
+
+    main .side-bar-menu ul.ul-links li {
+        justify-content: center;
+    }
+
+    main .side-bar-menu ul.ul-links li .visivel {
+        display: none;
+    }
+
+    main .side-bar-menu ul.ul-links .div-noty {
+        position: absolute;
+        right: 5px;
+
+
+
+    }
+
+    main .side-bar-menu ul.ul-links .Esplorar {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+
+    #promo {
+
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 35px;
+        color: rgb(255, 255, 255);
+        font-family: "MuseoModerno";
+        background-color: rgb(20, 20, 20);
+    }
+
+    #promo img {
+
+        margin: auto;
+    }
+
+    main .side-bar-menu ul.ul-links .promo-text {
+        display: none;
+    }
+
+
+
+    main .side-bar-menu .ul-user-btn-sair .btn-sair {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        font-size: 17px;
+        background-color: rgb(232, 232, 232);
+        width: 100%;
+
+        padding: 15px;
+
+        border-radius: 50%;
+    }
+
+    main .side-bar-menu .ul-user-btn-sair .btn-sair span {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 820px) {
+  
+
+    main .side-bar-menu {
+
+
+        display: none;
+
+
+    }
+
+
+}

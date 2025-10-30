@@ -1,0 +1,559 @@
+main .section-main .article-data-main {
+    border-radius: 0;
+    background-color: white;
+
+    padding: 25px;
+
+}
+
+
+.div-aeroporto-btn-data {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-aeroporto-btn-data .aeroporto-div {
+    background-color: rgb(230, 230, 230);
+    padding: 9px;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-aeroporto-btn-data .aeroporto-div .img-aeroporto-nome {
+    align-items: center;
+    gap: 10px;
+    display: flex;
+}
+
+.div-aeroporto-btn-data .aeroporto-div .img-aeroporto-nome img {
+    width: 45px;
+    display: block;
+    border-radius: 50%;
+}
+
+.div-aeroporto-btn-data .aeroporto-div .img-aeroporto-nome p {
+    font-family: "LeagueSpartan";
+    font-size: 14px;
+    margin-right: 9px;
+}
+
+.div-aeroporto-btn-data .aeroporto-div .aero-hora span {
+    font-family: "LeagueSpartan";
+    margin-right: 5px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.div-aeroporto-btn-data .div-data span {
+    font-family: "LeagueSpartan";
+    font-size: 30px;
+    opacity: 0.6;
+
+}
+
+
+
+main .section-main .article-data-main .ul-carrosel-inf {
+    margin-top: 30px;
+    display: grid;
+    gap: 15px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .section-main .article-data-main .ul-carrosel-inf li {
+    list-style: none;
+}
+
+/*card card-numero-de-voos*/
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos {
+    padding: 15px;
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-carrosel-rolo-content-link {
+    display: flex;
+    color: white;
+    z-index: auto;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-carrosel-rolo-content-link p {
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.7;
+
+    width: 150px;
+}
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-carrosel-rolo-content-link i {
+    font-size: 45px;
+    color: white;
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-valor-content {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-valor-content .valor {
+    font-size: 60px;
+    font-family: "LeagueSpartan";
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div-valor-content span {
+    position: relative;
+    top: 35px;
+    color: rgba(255, 255, 255, 0.644);
+    font-weight: bold;
+    font-size: 45px;
+
+}
+
+
+/* card-numero-de-voos asul*/
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f {
+    position: relative;
+
+    background-color: #dac7ff;
+    border-radius: 25px;
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-carrosel-rolo-content-link {
+    display: flex;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+
+
+}
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-carrosel-rolo-content-link p {
+    font-size: 14px;
+    opacity: 0.7;
+
+
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-carrosel-rolo-content-link i {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-contador-progresso span {
+    font-family: "LeagueSpartan";
+    font-size: 60px;
+
+}
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-contador-progresso small {
+    font-family: "LeagueSpartan";
+    font-size: 40px;
+    opacity: 0.7;
+
+}
+
+main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-contador-progresso {
+    position: relative;
+    top: 10px;
+    padding: 0 15px;
+    width: 100%;
+
+}
+
+.div-progress {
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(166, 76, 249);
+}
+
+.progress {
+    width: 50%;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+/*companias*/
+
+main .section-main .article-data-main .card-companias {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.229);
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+main .section-main .article-data-main .card-companias .div-carrosel-rolo-content-link {
+    display: flex;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-companias .div-carrosel-rolo-content-link p {
+    font-size: 14px;
+    opacity: 0.7;
+
+
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-companias .div-carrosel-rolo-content-link i {
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-companias .div-compania-Num-logos {
+    padding: 0 15px;
+    position: absolute;
+    bottom: 15px;
+}
+
+
+
+main .section-main .article-data-main .ul-carrosel-inf .card-companias .div-compania-Num-logos p {
+    font-family: "LeagueSpartan";
+    font-size: 60px;
+}
+
+
+/*hr*/
+
+main .section-main .article-data-main hr {
+    margin: 30px 0;
+    border: 2px dashed rgba(33, 33, 33, 0.213);
+    border-bottom: none;
+
+}
+
+/*div-content-btns*/
+
+
+main .section-main .article-data-main .div-content-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main .section-main .article-data-main .div-content-btns h2 {
+    font-family: "MuseoModerno";
+    font-weight: 500;
+    font-size: 45px;
+    width: 100%;
+    max-width: 520px;
+    line-height: 48px;
+}
+
+main .section-main .article-data-main .div-content-btns .div-options {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+main .section-main .article-data-main .div-content-btns .div-options button {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    width: 120px;
+    padding: 15px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+main .section-main .article-data-main .div-content-btns .div-options button span {
+    font-family: "LeagueSpartan";
+    font-size: 35px;
+}
+
+main .section-main .article-data-main .div-content-btns .div-options button p {
+    background-color: rgba(230, 230, 230, 0.793);
+    border: none;
+    margin-top: 30px;
+}
+
+/*lista-de-voos*/
+
+main .section-main .article-data-main .lista-de-voos {
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main .section-main .article-data-main .lista-de-voos li {
+    border-radius: 42px;
+    padding: 11px;
+    list-style: none;
+    margin-bottom: 15px;
+    background-color: #e7e7e7d2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+main .section-main .article-data-main .lista-de-voos li .li-div-img-content {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+main .section-main .article-data-main .lista-de-voos li .li-div-img-content img {
+    border-radius: 50%;
+    display: block;
+    width: 56px;
+}
+
+main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data {
+    font-family: "LeagueSpartan";
+}
+
+main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data p {
+    font-family: "LeagueSpartan";
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data span {
+    font-family: "LeagueSpartan";
+    font-size: 13px;
+}
+
+
+main .section-main .article-data-main .lista-de-voos li .provincia {
+    font-family: "LeagueSpartan";
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+main .section-main .article-data-main .lista-de-voos li .div-detalhes {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+main .section-main .article-data-main .lista-de-voos li .div-detalhes img {
+    width: 35px;
+    opacity: 0.7;
+}
+
+main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 5px;
+    font-family: "LeagueSpartan";
+    font-size: 15px;
+    color: rgb(3, 128, 3);
+}
+
+
+@media (max-width: 1400px) {
+    main .section-main .article-data-main .ul-carrosel-inf {
+        transition: 0.5S;
+    }
+
+    .card-numero-de-voos {
+
+        grid-column: span 1;
+    }
+
+    .card-Total-de-serviços-f {
+
+        grid-column: span 2;
+
+    }
+
+    .card-companias {
+        height: 190px;
+        grid-row: 2/2;
+        grid-column: span 3;
+    }
+}
+
+@media (max-width: 960px) {
+    main .section-main .article-data-main .ul-carrosel-inf {
+        grid-template-columns: 1fr;
+    }
+
+
+
+    main .section-main .article-data-main .ul-carrosel-inf {
+        transition: 0.5S;
+    }
+
+    .card-numero-de-voos {
+
+        grid-column: span 3;
+    }
+
+    .card-Total-de-serviços-f {
+        width: 100%;
+        grid-column: span 3;
+    }
+
+    .card-companias {
+        grid-row: 3/4;
+
+        grid-column: span 3;
+    }
+
+    main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f .div-contador-progresso {
+        position: unset;
+        top: 0;
+        margin-bottom: 15px;
+
+
+    }
+
+    main .section-main .article-data-main .div-content-btns {
+
+        text-align: center;
+        gap: 25px;
+        flex-direction: column;
+
+    }
+
+    main .section-main .article-data-main .div-content-btns h2 {
+        font-family: "MuseoModerno";
+        font-weight: 500;
+        font-size: 36px;
+        width: unset;
+        max-width: unset;
+        line-height: 48px;
+    }
+
+    main .section-main .article-data-main .div-content-btns .div-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+
+    }
+
+    main .section-main .article-data-main .div-content-btns .div-options button {
+        background-color: rgb(230, 230, 230);
+        border: none;
+        width: 100%;
+        padding: 15px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        padding-top: 20px;
+    }
+
+}
+
+
+@media (max-width: 720px) {
+
+
+    main .section-main .article-data-main {
+
+
+        padding: 15px;
+
+    }
+
+    .div-aeroporto-btn-data .div-data span {
+        font-family: "LeagueSpartan";
+        font-size: 20px;
+        opacity: 0.6;
+
+    }
+
+
+}
+
+@media (max-width: 480px) {
+
+
+
+    .div-aeroporto-btn-data {
+
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .li-div-img-content img {
+        border-radius: 50%;
+        display: block;
+        width: 45px;
+    }
+
+
+    main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data {
+        font-family: "LeagueSpartan";
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data p {
+        font-family: "LeagueSpartan";
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data span {
+        font-family: "LeagueSpartan";
+        font-size: 10px;
+    }
+
+
+    main .section-main .article-data-main .lista-de-voos li .provincia {
+        font-family: "LeagueSpartan";
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .div-detalhes {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .div-detalhes img {
+        width: 25px;
+        opacity: 0.7;
+    }
+
+    main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
+        display: flex;
+        align-items: center;
+        gap: 1px;
+     
+        font-family: "LeagueSpartan";
+        font-size: 12px;
+        color: rgb(3, 128, 3);
+    }
+
+}

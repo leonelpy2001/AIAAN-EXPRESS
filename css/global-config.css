@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+}
+
+@font-face {
+    font-family: "MuseoModerno";
+    src: url("../Asset/fonts/web-fonts/transfonter_MUSEO_MODERNO/MuseoModerno-Bold.woff2") format("woff2");
+
+
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url("../Asset/fonts/web-fonts/transfonter.org-COMFORTAA/Comfortaa-Regular.woff2") format("woff2");
+
+}
+
+@font-face {
+    font-family: "LeagueSpartan";
+    src: url("../Asset/fonts/web-fonts/transfonter.org-LeagueSpartan-Bold/LeagueSpartan-Bold.woff2") format("woff2");
+
+}

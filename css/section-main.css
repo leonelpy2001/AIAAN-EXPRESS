@@ -1,0 +1,101 @@
+/*menu principal*/
+#story {
+    font-family: "MuseoModerno";
+}
+
+main {
+    transition: 0.2s;
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+
+}
+
+main .section-main {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+main .section-main .article-nav-main {
+    padding: 0 16px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.193);
+}
+
+main .section-main .article-nav-main h1 {
+    color: rgb(0, 0, 0);
+    font-family: "MuseoModerno";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+
+
+main .section-main .article-nav-main .ul-pesquisa {
+
+    display: flex;
+    list-style: none;
+
+    gap: 10px;
+
+}
+
+main .section-main .article-nav-main .ul-pesquisa li {
+    cursor: pointer;
+}
+
+
+main .section-main .article-nav-main .ul-pesquisa li i {
+
+    padding: 15px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    display: block;
+    background-color: rgba(163, 163, 163, 0.234);
+    border-radius: 50%;
+}
+
+
+@media (max-width: 1160px) {
+    main {
+        transition: 0.2s;
+        grid-template-columns: 280px 1fr;
+
+    }
+
+
+}
+
+
+@media (max-width: 820px) {
+    main {
+        transition: 0.2s;
+        grid-template-columns:  1fr;
+
+    }
+
+
+}
+
+
+@media (max-width: 480px) {
+
+main .section-main .article-nav-main h1 {
+    
+    font-size: 18px;
+   
+}
+
+
+
+}
