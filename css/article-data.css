@@ -378,7 +378,6 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
     color: rgb(3, 128, 3);
 }
 
-
 @media (max-width: 1400px) {
     main .section-main .article-data-main .ul-carrosel-inf {
         transition: 0.5S;
@@ -473,6 +472,15 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
 
 }
 
+@media (max-width: 850px) {
+
+    .div-aeroporto-btn-data .div-data span {
+        font-family: "LeagueSpartan";
+        font-size: 25px;
+        opacity: 0.6;
+
+    }
+}
 
 @media (max-width: 720px) {
 
@@ -483,15 +491,12 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         padding: 15px;
 
     }
-
     .div-aeroporto-btn-data .div-data span {
         font-family: "LeagueSpartan";
-        font-size: 20px;
+        font-size: 21px;
         opacity: 0.6;
 
     }
-
-
 }
 
 @media (max-width: 480px) {
