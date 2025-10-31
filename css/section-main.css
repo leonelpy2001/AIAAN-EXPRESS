@@ -23,8 +23,7 @@ main .section-main .article-nav-main {
     position: sticky;
     top: 0;
     z-index: 5;
-    backdrop-filter: blur(8px);
-    background-color: rgba(255, 255, 255, 0.308);
+    background-color: rgb(255, 255, 255);
     padding: 0 16px;
     padding-top: 12px;
     padding-bottom: 15px;
