@@ -324,9 +324,11 @@ main .section-main .article-data-main .lista-de-voos li {
 
 main .section-main .article-data-main .lista-de-voos li .li-div-img-content {
     gap: 9px;
+
     display: flex;
     position: relative;
    background-color: transparent;
+   margin-right: 18px;
     align-items: center;
 }
 
