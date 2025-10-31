@@ -25,6 +25,7 @@ main .section-main .article-data-main {
 }
 
 .div-aeroporto-btn-data .aeroporto-div .img-aeroporto-nome {
+    font-family: "LeagueSpartan";
     align-items: center;
     gap: 10px;
     display: flex;
@@ -42,17 +43,29 @@ main .section-main .article-data-main {
     margin-right: 9px;
 }
 
+.div-aeroporto-btn-data .aeroporto-div .aero-hora {
+    font-family: "LeagueSpartan";
+    opacity: 0.6;
+    margin-right: 5px;
+}
+
 .div-aeroporto-btn-data .aeroporto-div .aero-hora span {
     font-family: "LeagueSpartan";
-    margin-right: 5px;
+
     font-size: 14px;
+}
+
+.div-aeroporto-btn-data .div-data {
+    font-family: "LeagueSpartan";
+    font-size: 30px;
     opacity: 0.6;
+
 }
 
 .div-aeroporto-btn-data .div-data span {
     font-family: "LeagueSpartan";
     font-size: 30px;
-    opacity: 0.6;
+
 
 }
 
@@ -138,7 +151,7 @@ main .section-main .article-data-main .ul-carrosel-inf .card-numero-de-voos .div
 main .section-main .article-data-main .ul-carrosel-inf .card-Total-de-serviços-f {
     position: relative;
 
-    background-color: #dac7ff;
+    background-color: #c7cbff;
     border-radius: 25px;
 }
 
@@ -327,8 +340,8 @@ main .section-main .article-data-main .lista-de-voos li .li-div-img-content {
 
     display: flex;
     position: relative;
-   background-color: transparent;
-   margin-right: 18px;
+    background-color: transparent;
+    margin-right: 18px;
     align-items: center;
 }
 
@@ -353,8 +366,8 @@ main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div
 main .section-main .article-data-main .lista-de-voos li .li-div-img-content .div-company-nome-data span {
     font-family: "LeagueSpartan";
     font-size: 13px;
- position: relative;
-    top:12px;
+    position: relative;
+    top: 12px;
     opacity: 0.6;
     background-color: transparent;
 }
@@ -483,16 +496,28 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
 }
 
 @media (max-width: 850px) {
+    .div-aeroporto-btn-data .div-data {
+
+        font-size: 25px;
+
+
+    }
 
     .div-aeroporto-btn-data .div-data span {
         font-family: "LeagueSpartan";
         font-size: 25px;
-        opacity: 0.6;
+
 
     }
 }
 
 @media (max-width: 720px) {
+    .div-aeroporto-btn-data .div-data {
+
+        font-size: 20px;
+
+
+    }
 
 
     main .section-main .article-data-main {
@@ -501,10 +526,11 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         padding: 15px;
 
     }
+
     .div-aeroporto-btn-data .div-data span {
         font-family: "LeagueSpartan";
         font-size: 20px;
-        opacity: 0.6;
+
 
     }
 }
@@ -565,7 +591,7 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         display: flex;
         align-items: center;
         gap: 1px;
-     
+
         font-family: "LeagueSpartan";
         font-size: 12px;
         color: rgb(3, 128, 3);
