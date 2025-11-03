@@ -75,7 +75,6 @@ main .section-main .article-data-main .ul-carrosel-inf {
     margin-top: 30px;
     display: grid;
     gap: 15px;
-
     grid-template-columns: 1fr 1fr 1fr;
 }
 

@@ -2,7 +2,9 @@
 #story {
     font-family: "MuseoModerno";
 }
-
+body{
+    background-color: rgb(255, 255, 255);
+}
 main {
     transition: 0.2s;
     width: 100%;
@@ -33,7 +35,11 @@ main .section-main .article-nav-main {
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.193);
 }
-
+main .section-main .article-nav-main p {
+    font-family: "MuseoModerno";
+    font-size: 34px;
+    font-weight: 500;
+}
 main .section-main .article-nav-main h1 {
     color: rgb(0, 0, 0);
     font-family: "MuseoModerno";
@@ -59,7 +65,7 @@ main .section-main .article-nav-main .ul-pesquisa li {
 
 
 main .section-main .article-nav-main .ul-pesquisa li i {
-
+font-weight: 900;
     padding: 15px;
     font-size: 22px;
     color: rgb(0, 0, 0);
