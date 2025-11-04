@@ -7,8 +7,12 @@ let listagem = document.querySelector(".lista-de-voos")
 //pegar elemento do modal user 
 let btnChamarModal = document.querySelector(".user")
 let iconeUser = document.querySelector(".user i")
-let modalUsuario = document.querySelector(".modal-user")
+let modalUsuario = document.querySelector(".section-user-modal-btn")
 let btnFechar = document.querySelector("#fechar")
+
+
+// pegar elementos do botao de navegacao
+let navUserBtn = document.querySelector("#nav-user")
 // importar db 
 import dataBaseVoos from "./lista-de-voos.js";
 
@@ -31,22 +35,38 @@ colocarBordaBtns();
 
 
 const chamarEfeixarModalUser = function () {
+    function chamarModalUser() {
+        btnChamarModal.onclick = function () {
+            document.body.style.overflowY = "hidden"
+            iconeUser.setAttribute("class", "bxs-user")
+            btnChamarModal.style.backgroundColor = "rgb(232, 232, 232)"
+            modalUsuario.classList.remove("hide")
 
-    btnChamarModal.onclick = function () {
-        document.body.style.overflowY = "hidden"
-        iconeUser.setAttribute("class", "bxs-user")
-        btnChamarModal.style.backgroundColor = "rgb(232, 232, 232)"
-        modalUsuario.classList.remove("hide")
+        }
+    }
+    chamarModalUser()
+
+    function fecharModalUser(params) {
+        btnFechar.onclick = function () {
+            document.body.style.overflowY = "scroll"
+            btnChamarModal.style.backgroundColor = "rgba(255, 255, 255, 1)"
+            iconeUser.setAttribute("class", "bx-user")
+            modalUsuario.classList.add("hide")
+        }
+    }
+    fecharModalUser()
+
+
+
+
+    const chamarModalUserPelaNavbar = function () {
+        navUserBtn.onclick = function () {
+
+            modalUsuario.classList.remove("hide")
+        }
 
     }
-
-    btnFechar.onclick = function () {
-        document.body.style.overflowY = "scroll"
-        btnChamarModal.style.backgroundColor = "rgba(255, 255, 255, 1)"
-        iconeUser.setAttribute("class", "bx-user")
-        modalUsuario.classList.add("hide")
-    }
-
+    chamarModalUserPelaNavbar()
 }
 chamarEfeixarModalUser()
 

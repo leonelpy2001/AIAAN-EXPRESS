@@ -411,92 +411,6 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
 
 /*usuario perfil */
 
-.modal-user {
-
-    position: fixed;
-    backdrop-filter: blur(6px);
-    background-color: rgba(74, 74, 74, 0.334);
-    width: 100%;
-    height: 100vh;
-    z-index: 10;
-}
-
-.modal-user i {
-    position: absolute;
-    right: 20px;
-    background-color: rgb(235, 235, 235);
-    padding: 15px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.modal-user .user-info {
-    border-radius: 25px;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    max-width: 480px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.modal-user .user-info .div-user-img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 15px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-
-.modal-user .user-info .div-user-img img {
-    cursor: pointer;
-    display: block;
-    width: 100px;
-    border-radius: 50%;
-
-}
-
-.modal-user .user-info .div-user-img p {
-
-    opacity: 0.7;
-
-}
-
-.modal-user .rolo {
-    border-radius: 20px;
-    background-color: rgb(235, 235, 235);
-}
-
-.modal-user .rolo hr {
-    border-bottom: none;
-    opacity: 0.3;
-}
-
-.modal-user .rolo li {
-    padding: 18px;
-    font-size: 14px;
-    list-style: none;
-
-    display: flex;
-
-    justify-content: space-between;
-}
-
-.modal-user button {
-    cursor: pointer;
-    width: 100%;
-    padding: 15px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 20px;
-    color: white;
-    background-color: rgb(94, 94, 188);
-}
-
-
 
 
 
@@ -704,24 +618,4 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         font-size: 12px;
         color: rgb(3, 128, 3);
     }
-
-    .modal-user {
-        padding: 15px;
-    }
-
-
-    .modal-user .user-info {
-        background-color: rgb(255, 255, 255);
-        border-radius: 25px;
-        padding: 15px;
-
-        width: 100%;
-        position: relative;
-        top: 310px;
-
-        left: unset;
-
-        transform: unset;
-    }
-
 }

@@ -1,0 +1,170 @@
+.section-user-modal-btn {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+    z-index: 20;
+    
+    background-color: rgba(67, 67, 67, 0.253);
+}
+.hide{
+    display: none;
+}
+.section-user-modal-btn .rolo-div-user-btn {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 480px;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info {
+
+    border-radius: 25px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info #fechar {
+    position: absolute;
+    right: 35px;
+    background-color: rgb(235, 235, 235);
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .div-user-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .div-user-img p {
+    margin-top: 15px;
+    opacity: 0.6;
+
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .div-user-img img {
+    width: 80px;
+    border-radius: 50%;
+    display: block;
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .ul-rolo-data {
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .ul-rolo-data hr {
+    border-bottom: none;
+    opacity: 0.3;
+}
+
+.section-user-modal-btn .rolo-div-user-btn .user-info .ul-rolo-data li {
+    padding: 18px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.section-user-modal-btn .rolo-div-user-btn .user-info button {
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(94, 94, 188);
+}
+
+/*modal-btns-nav*/
+
+
+
+.modal-btns-nav {
+    display: none;
+    z-index: 50;
+    border-radius: 50px;
+    background-color: rgb(18, 18, 18);
+    padding: 10px 30px;
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+
+    max-width: 280px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.modal-btns-nav ul {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.modal-btns-nav ul li {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 2px;
+}
+
+.modal-btns-nav ul li i {
+    font-size: 26px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.modal-btns-nav ul li span {
+    opacity: 0.7;
+    font-size: 12px;
+    font-family: "MuseoModerno";
+}
+
+.modal-btns-nav ul li #more {
+    font-size: 29px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgba(80, 80, 80, 0.487);
+}
+
+
+@media (max-width: 750px) {
+.section-user-modal-btn .rolo-div-user-btn {
+
+    position: absolute;
+    top: unset;
+    bottom:-135px;
+    left: 50%;
+    width: 100%;
+    max-width: 480px;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+
+}
+
+    
+.modal-btns-nav {
+  display: block;
+}
+
+}
