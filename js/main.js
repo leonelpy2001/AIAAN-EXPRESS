@@ -36,7 +36,7 @@ const chamarEfeixarModalUser = function () {
         document.body.style.overflowY = "hidden"
         iconeUser.setAttribute("class", "bxs-user")
         btnChamarModal.style.backgroundColor = "rgb(232, 232, 232)"
-        modalUsuario.classList.toggle("hide")
+        modalUsuario.classList.remove("hide")
 
     }
 
@@ -44,7 +44,7 @@ const chamarEfeixarModalUser = function () {
         document.body.style.overflowY = "scroll"
         btnChamarModal.style.backgroundColor = "rgba(255, 255, 255, 1)"
         iconeUser.setAttribute("class", "bx-user")
-        modalUsuario.classList.toggle("hide")
+        modalUsuario.classList.add("hide")
     }
 
 }
