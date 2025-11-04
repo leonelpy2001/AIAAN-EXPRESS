@@ -406,10 +406,10 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
     margin-right: 5px;
     font-family: "LeagueSpartan";
     font-size: 15px;
-    color: rgb(118, 133, 118);
+    color: rgb(3, 128, 3);
 }
 
-/*usuario perfil */
+
 
 
 
@@ -618,4 +618,8 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         font-size: 12px;
         color: rgb(3, 128, 3);
     }
+
+
+  
+
 }
