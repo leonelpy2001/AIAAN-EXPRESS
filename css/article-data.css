@@ -412,12 +412,12 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
 /*usuario perfil */
 
 .modal-user {
-   
+
     position: fixed;
     backdrop-filter: blur(6px);
     background-color: rgba(74, 74, 74, 0.334);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: 10;
 }
 
@@ -705,8 +705,8 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         color: rgb(3, 128, 3);
     }
 
-  .modal-user  {
-       padding: 15px;
+    .modal-user {
+        padding: 15px;
     }
 
 
@@ -714,12 +714,13 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
         background-color: rgb(255, 255, 255);
         border-radius: 25px;
         padding: 15px;
-       
+
         width: 100%;
-    position: relative;
-        top: 26%;
+        position: relative;
+        top: 310px;
+
         left: unset;
-  
+
         transform: unset;
     }
 
