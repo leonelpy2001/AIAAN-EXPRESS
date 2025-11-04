@@ -59,19 +59,18 @@ const chamarEfeixarModalUser = function () {
 
 
 
-    const chamarModalUserPelaNavbar = function () {
-        navUserBtn.onclick = function () {
-            document.body.style.overflowY = "hidden"
-            modalUsuario.classList.remove("hide")
-        }
 
-    }
-    chamarModalUserPelaNavbar()
 }
 chamarEfeixarModalUser()
 
 
+const chamarModalUserPelaNavbar = function () {
+    navUserBtn.addEventListener("click", function () {
+        modalUsuario.classList.remove("hide")
+    })
 
+}
+chamarModalUserPelaNavbar()
 
 
 
