@@ -11,7 +11,7 @@ const mostrarNotificaoes = function () {
         return noty
     }
 
-    const permissao = function (params) {
+    const permissao = function () {
 
         if (Notification.permission === "granted") {
             mostrarNoty()
@@ -28,4 +28,3 @@ const mostrarNotificaoes = function () {
     permissao()
 
 }
-mostrarNotificaoes()
