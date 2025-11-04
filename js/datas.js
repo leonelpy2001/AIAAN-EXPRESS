@@ -1,12 +1,10 @@
-//pegar elementos
+//pegar elementos para horas e data
 
 let elementoHora = document.querySelector(".aero-hora .hora");
 let elementoMinuto = document.querySelector(".aero-hora .minutos");
 let elementoDiaMes = document.querySelector(".div-data .dia-mes");
 let elementoMes = document.querySelector(".div-data .mes");
 let elementoAno = document.querySelector(".div-data .ano");
-
-
 
 const inserirDataHora = function () {
     //pegar as horas 
@@ -21,57 +19,31 @@ const inserirDataHora = function () {
     let ano = hoje.getFullYear()
 
 
-    // tradando valores de hora e minutos
+    // tradando valores de formatacao 
 
     //inserir dados na tela 
 
     const inserirHora = function () {
-        if (hora <= 9) {
-
-            elementoHora.textContent = `0${hora}`
-
-        } else {
-            elementoHora.textContent = `${hora}`
-        }
-
-
+        hora <= 9 ? elementoHora.textContent = `0${hora}` : elementoHora.textContent = `${hora}`
     }
     inserirHora()
 
+
     const inserirMinuto = function () {
-        if (minutos <= 9) {
-
-            elementoMinuto.textContent = `0${minutos}`
-
-        } else {
-            elementoMinuto.textContent = `${minutos}`
-        }
-
+        minutos <= 9 ? elementoMinuto.textContent = `0${minutos}` : elementoMinuto.textContent = `${minutos}`
     }
     inserirMinuto()
 
 
     const inserirDiaMes = function () {
+        dia <= 9 ? elementoDiaMes.textContent = `0${dia}/` : elementoDiaMes.textContent = `${dia}/`
 
-        if (dia <= 9) {
-
-            elementoDiaMes.textContent = `0${dia}`
-
-        } else {
-            elementoDiaMes.textContent = `${dia}`
-        }
     }
     inserirDiaMes()
 
     const inserirMes = function () {
-
-        if (mes <= 9) {
-
-            elementoMes.textContent = `0${mes}`
-
-        } else {
-            elementoMes.textContent = `${mes}`
-        }
+        mes <= 9 ? elementoMes.textContent = `0${mes}/` : elementoMes.textContent = `${mes}/`
+      
     }
     inserirMes()
 
