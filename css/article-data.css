@@ -5,9 +5,11 @@ main .section-main .article-data-main {
     padding: 25px;
 
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 .div-aeroporto-btn-data {
 
     display: flex;
@@ -410,6 +412,7 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
 /*usuario perfil */
 
 .modal-user {
+   
     position: fixed;
     backdrop-filter: blur(6px);
     background-color: rgba(74, 74, 74, 0.334);
@@ -424,7 +427,7 @@ main .section-main .article-data-main .lista-de-voos li .div-detalhes p {
     background-color: rgb(235, 235, 235);
     padding: 15px;
     border-radius: 50%;
-cursor: pointer;
+    cursor: pointer;
 }
 
 .modal-user .user-info {
@@ -450,6 +453,7 @@ cursor: pointer;
 
 .modal-user .user-info .div-user-img img {
     cursor: pointer;
+    display: block;
     width: 100px;
     border-radius: 50%;
 
@@ -463,7 +467,7 @@ cursor: pointer;
 
 .modal-user .rolo {
     border-radius: 20px;
-       background-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
 }
 
 .modal-user .rolo hr {
@@ -473,7 +477,7 @@ cursor: pointer;
 
 .modal-user .rolo li {
     padding: 18px;
- font-size: 14px;
+    font-size: 14px;
     list-style: none;
 
     display: flex;
@@ -701,19 +705,22 @@ cursor: pointer;
         color: rgb(3, 128, 3);
     }
 
+  .modal-user  {
+       padding: 15px;
+    }
+
+
     .modal-user .user-info {
-        border-radius: 25px 25px 0 0;
-        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 25px;
+        padding: 15px;
+       
         width: 100%;
-        max-width: 480px;
-        position: absolute;
-        top: unset;
+    position: relative;
+        top: 26%;
         left: unset;
-        bottom: 0;
+  
         transform: unset;
     }
 
 }
-
-
-
