@@ -37,8 +37,9 @@ colocarBordaBtns();
 const chamarEfeixarModalUser = function () {
     function chamarModalUser() {
         btnChamarModal.onclick = function () {
-            document.body.style.overflowY = "hidden"
+
             iconeUser.setAttribute("class", "bxs-user")
+            document.body.style.overflowY = "hidden"
             btnChamarModal.style.backgroundColor = "rgb(232, 232, 232)"
             modalUsuario.classList.remove("hide")
 
@@ -57,20 +58,18 @@ const chamarEfeixarModalUser = function () {
     fecharModalUser()
 
 
+    navUserBtn.onclick = function (params) {
+        document.body.style.overflowY = "hidden"
+        modalUsuario.classList.remove("hide")
 
+    }
 
 
 }
 chamarEfeixarModalUser()
 
 
-const chamarModalUserPelaNavbar = function () {
-    navUserBtn.addEventListener("click", function () {
-        modalUsuario.classList.remove("hide")
-    })
 
-}
-chamarModalUserPelaNavbar()
 
 
 
