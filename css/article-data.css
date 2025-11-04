@@ -473,7 +473,7 @@ cursor: pointer;
 
 .modal-user .rolo li {
     padding: 18px;
- 
+ font-size: 14px;
     list-style: none;
 
     display: flex;
@@ -717,11 +717,3 @@ cursor: pointer;
 
 
 
-@media (max-width: 380px) {
-
-.modal-user .user-info .rolo li{
-     font-size: 15px;
-    }
-
-   
-}
