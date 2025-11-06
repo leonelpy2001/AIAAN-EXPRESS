@@ -28,4 +28,3 @@ const mostrarNotificaoes = function () {
     permissao()
 
 }
-mostrarNotificaoes()
