@@ -1,6 +1,6 @@
 {
   "name": "Gospress",
-  "short_name": "app",
+  "short_name": "Gospress",
   "start_url": "/AIAAN-EXPRESS/html/main.html",
   "display": "standalone",
   "background_color": "#ffffff",
