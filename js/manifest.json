@@ -1,7 +1,7 @@
 {
   "name": "Gospress",
   "short_name": "app",
-  "start_url": "/main.html",
+  "start_url": "../main.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
