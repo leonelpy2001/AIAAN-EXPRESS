@@ -1,7 +1,7 @@
 {
   "name": "Olá Mundo PWA",
   "short_name": "OlaPWA",
-  "start_url": "segundo.html",
+  "start_url": "../html/main.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0078ff",
