@@ -1,7 +1,7 @@
 {
   "name": "Gospress",
   "short_name": "imgs/logo/gospress_logo.png",
-  "start_url": "/index.html",
+  "start_url": "/AIAAN-EXPRESS/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
