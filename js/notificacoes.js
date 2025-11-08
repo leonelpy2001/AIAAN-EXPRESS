@@ -5,7 +5,7 @@ const mostrarNotificaoes = function () {
     const mostrarNoty = function () {
         const noty = new Notification("Gospress", {
             body: "Voo com origem Huambo chegou a nossa estação!",
-            icon: "../imgs/logo/gospress_logo-removebg-preview.png",
+            icon: "../imgs/logo/gospress_logo.png",
             requireInteraction: "ver"
         })
         return noty
