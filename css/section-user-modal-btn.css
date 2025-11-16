@@ -23,7 +23,7 @@
 }
 
 .section-user-modal-btn .rolo-div-user-btn .user-info {
-
+border: 1px solid rgb(163, 163, 163);
     border-radius: 25px;
     padding: 20px;
     background-color: rgb(255, 255, 255);
