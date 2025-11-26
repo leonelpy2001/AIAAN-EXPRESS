@@ -100,12 +100,12 @@ border: 1px solid rgb(163, 163, 163);
     z-index: 50;
     border-radius: 50px;
     background-color: rgb(18, 18, 18);
-    padding: 10px 30px 10px 10px;
+    padding: 10px 15px 10px 10px;
     position: fixed;
     bottom: 15px;
     width: 100%;
 
-    max-width: 200px;
+    max-width: 190px;
     left: 50%;
     transform: translate(-50%);
 }
@@ -129,9 +129,11 @@ border: 1px solid rgb(163, 163, 163);
 }
 
 .modal-btns-nav ul li i {
-    font-size: 26px;
+    background-color: transparent;
+    border-radius: 50%;
+    font-size: 32px;
     cursor: pointer;
-    padding: 5px;
+    padding: 8px;
 }
 
 .modal-btns-nav ul li span {
