@@ -100,12 +100,12 @@ border: 1px solid rgb(163, 163, 163);
     z-index: 50;
     border-radius: 50px;
     background-color: rgb(18, 18, 18);
-    padding: 10px 30px;
+    padding: 10px 30px 10px 10px;
     position: fixed;
     bottom: 15px;
     width: 100%;
 
-    max-width: 280px;
+    max-width: 200px;
     left: 50%;
     transform: translate(-50%);
 }
